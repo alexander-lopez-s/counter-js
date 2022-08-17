@@ -1,3 +1,0 @@
-# Styles
-
-all `.css` files
