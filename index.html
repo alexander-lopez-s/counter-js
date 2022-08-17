@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href=https://fonts.googleapis.com/css?family=Orbitron rel=stylesheet type=text/css>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <title>Set Interval / Set Time Out practice</title>
+</head>
+<body>
+    <div class="container">
+    <div class="title">
+    <h1 id="title"></h1>
+</div>
+</div>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+    <div class="counter_text">
+    <table>
+    <tr>
+		<td><p id="hours">0 </p> </td>
+		<td><p id="minutes">0 </p> </td>
+		<td><p id="seconds">0</p></td>
+	</tr>
+	<tr>
+		<td>Hours</td>
+		<td>Mins</td>
+		<td>Secs</td>
+	</tr>
+</table>
+</div>
+<div class="buttons">
+            <input type="button" id="start" onclick="start()" value="Start"/>
+            <input type="button" id="reset" onclick="reset()" value="Reset"/>
+        </div>
+    <script type="text/javascript" src="script.js"></script> 
+</body>
 </html>
