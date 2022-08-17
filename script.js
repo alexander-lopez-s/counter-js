@@ -24,7 +24,7 @@ image.width = 400
 image.height = 290
 document.querySelector('.title').appendChild(image)
 }
-setTimeout(showImage, 4000)
+setTimeout(showImage, 2000)
 
 /////////////////////
 let counting;
