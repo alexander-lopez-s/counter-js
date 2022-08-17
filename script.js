@@ -35,7 +35,7 @@ function start()
     let disableButton = document.getElementById("start");
     disableButton.disabled = true; 
   // variables for our seconds, minutes, and hours
-  let counter_s = 0;
+  let counter_s = 1;
   let counter_m = 0;
   let counter_h = 0;
     s = document.getElementById("seconds");
